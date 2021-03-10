@@ -14,6 +14,8 @@ class NavBar extends Component {
     //this comment this out later onn
     //remember to include event handlers
     
+// Since there's no state, this should be a functional component maybe? 
+
     render() {
         return (
             <nav id="nav">

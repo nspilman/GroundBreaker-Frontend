@@ -47,6 +47,7 @@ class MainContainer extends Component {
     
     render() {
         console.log(this.state)
+        // remove? 
         return (
             //comment back in after testing 
             <div>

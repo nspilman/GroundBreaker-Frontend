@@ -2,6 +2,8 @@
 import React, { Component } from 'react'
 import SimpleImageSlider from "react-simple-image-slider"
 
+// Since there's no State, you might want to make this a functional component.
+
 class ProjectImageSlider extends Component {
     
     // map = `https://maps.googleapis.com/maps/api/staticmap?center=40.714728,-73.998672&zoom=15&size=640x640&key=${process.env.REACT_APP_GOOGLE_KEY}`

@@ -17,6 +17,9 @@ class Signup extends Component {
     }
 
     submitHandler = (e) => {
+        // Be explicit about what this actually does
+        // getUsers? 
+        // I recognize that it's handling the event, but onClick = () => getUsers is waaaaay clearer that onclick = () => handleSubmit
         e.preventDefault()
 
         if (this.state.password === this.state.password_confirmation) {

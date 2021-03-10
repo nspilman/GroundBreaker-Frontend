@@ -1,3 +1,5 @@
+// This isn't a UI component. Should be somewhere else
+
 let mapStyles = [
     {
         "featureType": "landscape",
